@@ -1,0 +1,152 @@
+body{
+
+	background: black;
+	overflow: hidden;
+
+}
+#container{
+
+	width: 100%;
+	height: 600px;
+
+}
+
+#getfibonacci{
+	position: absolute;
+	left: 40%;
+	bottom: 8%; 
+	border: 2px solid white;
+	background: none;	
+	cursor: pointer;
+	outline: none;
+	color: white;
+	z-index: 99;
+	padding: 15px 25px;
+	border-radius: 40px;
+	-webkit-transition: all linear .2s;
+	-moz-transition: all linear .2s;
+	-ms-transition: all linear .2s;
+	-o-transition: all linear .2s;
+	transition: all linear .2s;	
+
+}
+
+#getfibonacci:hover{
+
+	background: white;
+	color: black;
+	-webkit-transition: all linear .2s;
+	-moz-transition: all linear .2s;
+	-ms-transition: all linear .2s;
+	-o-transition: all linear .2s;
+	transition: all linear .2s;	
+
+}
+
+.start:focus{
+
+	outline: none;
+
+}
+
+.cube{
+
+	position: absolute;
+	border: 3px solid white;
+	left: 5%;
+	top: 5%;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;    
+
+}
+
+
+div{
+
+	position: absolute;
+	border: 3px solid white;
+	left: 5%;
+	top: 5%;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;  
+
+}
+
+
+@keyframes example {
+    from {
+
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotate(0deg);	
+    -ms-transform: rotate(0deg); /* IE 9 */
+	-o-transform: rotate(0deg);
+    transform: rotate(0deg);	   	
+
+
+    }
+    to {
+
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotate(360deg);	
+    -ms-transform: rotate(360deg); /* IE 9 */
+	-o-transform: rotate(360deg);
+    transform: rotate(360deg);	
+
+
+    }
+}
+
+
+h1{
+
+	-webkit-transition: all linear .2s;
+	-moz-transition: all linear .2s;
+	-ms-transition: all linear .2s;
+	-o-transition: all linear .2s;
+	transition: all linear .2s;	
+	position: absolute;
+	right: 17%;
+	top: 20%;
+	color: white;
+	font-size: 200px;
+	opacity: .1;
+    animation-name: titre;
+    animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+}
+
+h1:hover {
+
+	opacity: 1;
+	-webkit-transition: all linear .2s;
+	-moz-transition: all linear .2s;
+	-ms-transition: all linear .2s;
+	-o-transition: all linear .2s;
+	transition: all linear .2s;	
+
+}
+
+@keyframes titre {
+    from {top: 20%; opacity: 1;}
+    to {top: 30%; opacity: .1;}
+}
+
+
+h2{
+
+
+	position: absolute;
+	right: 3%;
+	bottom: 3%;
+	font-size: 12px;
+	color: #555;
+
+
+
+}
+
+
